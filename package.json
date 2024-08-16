@@ -1,0 +1,29 @@
+{
+  "name": "kadence-orm",
+  "version": "1.0.0",
+  "description": "Kadence ORM is an object relational mapper for databases, APIs and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadenceio/kadence-orm.git"
+  },
+  "keywords": [
+    "orm",
+    "postgres",
+    "postgresql",
+    "mongo",
+    "mongodb",
+    "mysql",
+    "restapi",
+    "api"
+  ],
+  "author": "Kadence Technologies LLC",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kadenceio/kadence-orm/issues"
+  },
+  "homepage": "https://github.com/kadenceio/kadence-orm#readme"
+}
