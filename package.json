@@ -1,29 +1,41 @@
 {
-  "name": "kadence-orm",
-  "version": "1.0.0",
-  "description": "Kadence ORM is an object relational mapper for databases, APIs and more.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kadenceio/kadence-orm.git"
-  },
-  "keywords": [
-    "orm",
-    "postgres",
-    "postgresql",
-    "mongo",
-    "mongodb",
-    "mysql",
-    "restapi",
-    "api"
-  ],
-  "author": "Kadence Technologies LLC",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/kadenceio/kadence-orm/issues"
-  },
-  "homepage": "https://github.com/kadenceio/kadence-orm#readme"
+    "name": "kadence-orm",
+    "version": "1.0.0",
+    "description": "Kadence ORM is an object relational mapper for databases, APIs and more.",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kadenceio/kadence-orm.git"
+    },
+    "keywords": [
+        "orm",
+        "postgres",
+        "postgresql",
+        "mongo",
+        "mongodb",
+        "mysql",
+        "restapi",
+        "api"
+    ],
+    "author": "Kadence Technologies LLC",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/kadenceio/kadence-orm/issues"
+    },
+    "homepage": "https://github.com/kadenceio/kadence-orm#readme",
+    "devDependencies": {
+        "@types/jest": "^29.5.12",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.2.4",
+        "tsup": "^8.2.4"
+    }
 }
