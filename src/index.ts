@@ -1,5 +1,5 @@
-export function add(a: number, b: number): number {
-    return a + b;
-}
-  
-console.log(add(3, 5)); //output: 8
+export * from "../src/types/source";
+export * from "../src/types/object";
+export * from "../src/lib/decorators";
+export * from "./lib/client";
+export * from "./lib/util";
