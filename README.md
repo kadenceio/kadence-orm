@@ -27,13 +27,12 @@ The first step will be installing the Kadence ORM package in your existing proje
 
   `$ npm i kadence-orm`
 
-3. Add reflect-metadata to your project:
+3. Update your tsconfig.json file to include the following:
 
-  `$ npm i reflect-metadata`
-
-4. Add the postgres package to your project:
-
-  `$ npm i pg`
+  ```
+  "experimentalDecorators": true,
+  "emitDecoratorMetadata": true,
+  ```
 
 Now Kadence ORM is successfully installed in your project and ready to use.
 
